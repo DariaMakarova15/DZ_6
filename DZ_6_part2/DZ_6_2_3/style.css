@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table{
+	border-collapse: collapse;
+	background: #fcfcfc;
+	width: 630px;
+	height: 200px;
+	font-family: Arial, sans-serif;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+    width: 240px;
+    border-bottom: 1px solid #E0E0E0;
+}
+

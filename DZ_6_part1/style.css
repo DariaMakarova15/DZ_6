@@ -1,0 +1,62 @@
+table{
+	border: 1px solid black;
+	height: 150px;
+	width: 500px;
+	border-collapse: collapse;
+	font-family: Arial, sans-serif;
+}
+
+th, tr, td{
+	border: 2px solid black;
+	text-align: center;
+	vertical-align: middle;
+}
+tr:nth-child(2) td:nth-child(2){
+   background: green;
+}
+tr:nth-child(2) td:nth-child(3){
+	background: violet;
+}
+tr:nth-child(3) td:nth-child(2):active{
+   background: red;
+}
+tr:nth-child(3) td:nth-child(3):active{
+	background: gold;
+}
+tr:nth-child(4) td:nth-child(2):hover{
+   background: yellow;
+}
+tr:nth-child(4) td:nth-child(3):hover{
+	background: brown;
+}
+input:hover{
+	border: 2px solid green;
+}
+.paragraf p:nth-child(even){
+	background: grey;
+}
+.paragraf2:first-letter{
+font-family: Georgia;
+font-size: 2em;
+color: red;
+}
+/*exersize 5*/
+p:after{
+	content: "*";
+}
+/*exersize 6*/
+p:before{
+	content: "\2602";
+}
+
+
+.block{
+	margin: 50px;
+	height: 25px;
+	width: 40px;
+	background: black;
+}
+div.block:before{
+	content: "\25c0";
+	margin: -12px;
+}
